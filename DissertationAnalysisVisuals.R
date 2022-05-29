@@ -39,10 +39,6 @@ SurveyData %>%
 
 #ANOVA 
 
-# weightlost == S_tot (estimated marginal means)
-# Diet == scenarios
-# gender == Vis_max
-
 #Tests of Between-Subjects Effects (working)
 
 anova_bse <- aov(S_tot ~ Vis_max)
